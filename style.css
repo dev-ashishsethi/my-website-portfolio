@@ -1,0 +1,51 @@
+/*Robot Slab,serif*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap'); 
+
+
+:root{
+    --nav_clr: #374151;
+    --primary_clr: #F9FAFB;
+    --secondary_clr: #EAB308;
+}
+
+body{
+    background-color: var(--nav_clr);
+
+}
+
+.navigation{
+    background-color: var(--nav_clr);
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto Slab,serif;
+}
+
+.nav__heading a{
+    color: var(--primary_clr);
+    text-decoration: none;
+}
+
+.nav__flexcontainer{
+    display: flex;
+    list-style: none;
+    color: var(--primary_clr);
+    /* justify-content: space-between; */
+}
+
+.nav__flexitem a{
+    padding: 10px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--primary_clr);
+}
+
+.nav__flexitem a:hover{
+    color: var(--secondary_clr);
+}
+
+.head__img{
+    
+
+}
+
