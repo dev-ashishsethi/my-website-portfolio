@@ -6,6 +6,7 @@
     --nav_clr: #374151;
     --primary_clr: #F9FAFB;
     --secondary_clr: #EAB308;
+    --font: Roboto Slab,serif;
 }
 
 body{
@@ -17,7 +18,7 @@ body{
     background-color: var(--nav_clr);
     display: flex;
     justify-content: space-between;
-    font-family: Roboto Slab,serif;
+    font-family: var(--font);
 }
 
 .nav__heading a{
@@ -44,8 +45,39 @@ body{
     color: var(--secondary_clr);
 }
 
-.head__img{
-    
 
+.header__img{
+    width: 200px;
+    display: block;
+    margin: auto;
+    margin-top: 3rem;
+    
+}
+
+.header__intro{
+    color: var(--primary_clr);
+    text-align: center;
+    font-family: var(--font);
+    font-size: 1.3rem;
+    margin-top: 2rem;
+}
+
+.header__highlight{
+    color: var(--secondary_clr);
+
+}
+
+.about__head{
+    color: var(--primary_clr);
+    text-align: center;
+    font-family: var(--font);
+    font-size: 1.3rem;
+}
+.about__text{
+    color: var(--primary_clr);
+    text-align: justify;
+    font-family: var(--font);
+    font-size: 1rem;
+    padding: 1rem 25rem 1rem;
 }
 
