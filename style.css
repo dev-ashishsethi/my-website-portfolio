@@ -67,17 +67,33 @@ body{
 
 }
 
-.about__head{
+.content{
+    margin-top: 6rem;
+    padding: 0rem 2rem;
+}
+.content__head{
+    text-align: center;
+}
+.content__head a{
+    text-decoration: none;
     color: var(--primary_clr);
     text-align: center;
     font-family: var(--font);
     font-size: 1.3rem;
 }
-.about__text{
+
+.content__head a:hover{
+    text-decoration: none;
+    color: var(--secondary_clr);
+    text-align: center;
+    font-family: var(--font);
+    font-size: 1.3rem;
+}
+.content__text{
     color: var(--primary_clr);
     text-align: justify;
     font-family: var(--font);
     font-size: 1rem;
-    padding: 1rem 25rem 1rem;
+    /* padding: 1rem 25rem 1rem; */
 }
 
