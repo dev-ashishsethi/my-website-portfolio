@@ -14,6 +14,12 @@ body{
 
 }
 
+@media (max-width:800px) {
+    body{
+        max-width: 90%;
+        width: 100%;
+    }
+}
 .navigation{
     background-color: var(--nav_clr);
     display: flex;
@@ -70,6 +76,8 @@ body{
 .content{
     margin-top: 6rem;
     padding: 0rem 2rem;
+    margin: 0rem 2rem;
+
 }
 .content__head{
     text-align: center;
