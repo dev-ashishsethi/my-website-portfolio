@@ -9,6 +9,24 @@
     --font: Roboto Slab,serif;
 }
 
+/** container **/
+/* .container {
+    padding: 0rem 1rem;
+  }
+  
+  .container-center {
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .section {
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    text-align: center;
+  } */
+
 body{
     background-color: var(--nav_clr);
 
@@ -16,8 +34,10 @@ body{
 
 @media (max-width:800px) {
     body{
-        max-width: 90%;
+
+        max-width: 80%;
         width: 100%;
+        margin: auto;
     }
 }
 .navigation{
@@ -74,9 +94,12 @@ body{
 }
 
 .content{
-    margin-top: 6rem;
-    padding: 0rem 2rem;
-    margin: 0rem 2rem;
+    
+    /* padding: 0rem 2rem;
+    margin: 0rem 2rem; */
+    max-width: 60rem;
+    margin: auto;
+    margin-top: 4%;
 
 }
 .content__head{
